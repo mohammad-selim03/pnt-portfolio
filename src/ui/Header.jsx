@@ -58,7 +58,7 @@ const Header = () => {
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
             transition={{ delay: 0.5 }}
-            href={resume}
+            href={"https://drive.google.com/file/d/1ARCWeeG39R99ThNDiDbgm4z1GtSqjSph/view"}
             target="blank"
             className="px-4 py-2 rounded-md font-medium text-designColor text-[13px] tracking-wider uppercase border border-designColor hover:bg-hoverColor duration-200"
           >
@@ -132,7 +132,7 @@ const Header = () => {
                   animate={{ opacity: 1 }}
                   transition={{ delay: 1.2, ease: "easeIn" }}
                   className="text-sm w-72 tracking-widest text-designColor text-center mt-4"
-                  href="mailto:noor.jsdivs@gmail.com"
+                  href="mailto:selim.nill1@gmail.com"
                 >
                   <p className="text-darkText hover:text-designColor hover:underline underline-offset-4 duration-200">
                     reactbd@proton.me

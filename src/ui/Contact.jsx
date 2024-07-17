@@ -16,7 +16,7 @@ const Contact = () => {
         is always open. Whether you have a question or just want to say hi, I’ll
         try my best to get back to you!
       </p>
-      <a href="mailto:noor.jsdivs@gmail.com">
+      <a href="mailto:selim.nill1@@gmail.com">
         <p className="w-40 h-14 border border-designColor font-semibold mt-6 text-sm text-designColor tracking-wider rounded-md hover:bg-hoverColor duration-300 flex items-center justify-center">
           Say Hello
         </p>

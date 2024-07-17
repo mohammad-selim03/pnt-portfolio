@@ -6,7 +6,7 @@ const ProjectsLInks = ({ link }) => {
   return (
     <div className="text-2xl flex items-center gap-4">
       <a
-        href="https://github.com/noorjsdivs"
+        href="https://github.com/selimnill"
         target="blank"
         className="hover:text-designColor duration-200"
       >

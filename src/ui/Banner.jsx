@@ -18,7 +18,7 @@ const Banner = () => {
         initial={{ y: 10, opacity: 0 }}
         animate={{ y: 0, opacity: 1 }}
         transition={{ duration: 0.5, delay: 0.7 }}
-        className="text-lg font-semibold tracking-wide text-designColor"
+        className="text-lg font-semibold tracking-wide "
       >
         Hi, my name is
       </motion.h3>
@@ -26,9 +26,9 @@ const Banner = () => {
         initial={{ y: 10, opacity: 0 }}
         animate={{ y: 0, opacity: 1 }}
         transition={{ duration: 0.5, delay: 0.7 }}
-        className="text-4xl lg:text-6xl font-bold flex flex-col"
+        className="text-4xl lg:text-6xl font-bold flex flex-col text-designColor"
       >
-        Noor Mohammad.
+        Mohammad Selim
         <span className="text-darkText font-semibold mt-2 lg:mt-4">
           <Typewriter
             options={{
@@ -45,11 +45,11 @@ const Banner = () => {
         transition={{ duration: 0.5, delay: 0.8 }}
         className="md:max-w-[650px] text-darkText font-medium leading-7"
       >
-        I am a web developer with 8+ years of experience in React. I have a
+        I am a web developer with 2+ years of experience in React. I have a
         strong foundation in front-end & back-end development and am skilled in
         creating user-friendly and responsive web applications using React and
         its ecosystem.{" "}
-        <a href="https://noormohammad.reactbd.com/" target="blank">
+        <a href="https://selimnill-portfolio.netlify.app/" target="blank">
           <span className="text-designColor inline-flex relative cursor-pointer h-7 overflow-x-hidden group">
             Learn more
             <span className="absolute w-full h-[1px] bg-designColor left-0 bottom-0 -translate-x-[110%] transition-transform group-hover:translate-x-0 duration-500" />
@@ -60,7 +60,7 @@ const Banner = () => {
         initial={{ y: 10, opacity: 0 }}
         animate={{ y: 0, opacity: 1 }}
         transition={{ duration: 0.5, delay: 0.9 }}
-        href="https://github.com/noorjsdivs"
+        href="https://github.com/selimnill"
         target="_blank"
         className="w-52 h-14 text-sm border border-designColor rounded-md text-designColor tracking-wide font-semibold hover:bg-hoverColor duration-300 flex items-center justify-center"
       >

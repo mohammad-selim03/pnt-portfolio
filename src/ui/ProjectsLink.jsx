@@ -8,7 +8,7 @@ const ProjectsLink = ({ link }) => {
     <div className="text-2xl flex items-center gap-5">
       <a
         className="hover:text-designColor duration-300"
-        href="https://github.com/noorjsdivs"
+        href="https://github.com/selimnill"
         target="_blank"
       >
         <TbBrandGithub />

@@ -20,7 +20,7 @@ const About = () => {
       <div className="flex flex-col lg:flex-row gap-16">
         <div className="w-full lg:w-2/3 text-darkText font-medium flex flex-col gap-4">
           <p>
-            Hello! My name is Noor Mohammad and I enjoy creating things that
+            Hello! My name is Mohammad Selim and I enjoy creating things that
             live on the internet. My interest in web development started back in
             2012 when I decided to try editing custom Tumblr themes — turns out
             hacking together a custom reblog button taught me a lot about HTML &
