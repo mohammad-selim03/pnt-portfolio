@@ -200,20 +200,18 @@ const Project = () => {
                 Featured Project
               </p>
               <h3 className="text-2xl font-bold">
-                Traveling Website Full Stack
+                Electro orebi shop
               </h3>
             </div>
             <p className="text-sm md:text-base bg-[#112240] p-2 md:p-6 rounded-md lg:-mr-16">
-              A full functional Travellig web app where an user can book their
-              flite with secure online payments.{" "}
-              <span className="text-designColor">With admin</span> can manage
-              all the users profile and flite{" "}
+              A full responsive ecommerce website with cart and search functionalities.
+           Dynamic data's and fast renderd.
             </p>
             <ul className="text-xs md:text-sm tracking-wide flex gap-2 md:gap-5 justify-between text-darkText">
               <li>React JS</li>
-              <li>Node JS</li>
+              <li>Rest Api</li>
               <li>Firebase Authenticatioin</li>
-              <li>Stripe</li>
+              <li>Tailwind CSS</li>
               <li>Vercel Deployment</li>
             </ul>
             <ProjectsLInks
