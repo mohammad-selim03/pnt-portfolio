@@ -8,7 +8,7 @@ import SocialLInks from "./SocialLInks";
 const navigation = [
   { title: "Home", link: "home", value: "" },
   { title: "About", link: "about", value: "01", delay: 0.1 },
-  { title: "Experience", link: "experience", value: "02", delay: 0.2 },
+  // { title: "Experience", link: "experience", value: "02", delay: 0.2 },
   { title: "Project", link: "project", value: "03", delay: 0.3 },
   { title: "Contact", link: "contact", value: "04", delay: 0.4 },
 ];
