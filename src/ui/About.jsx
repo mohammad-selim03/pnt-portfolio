@@ -5,14 +5,14 @@ import { FaCode } from "react-icons/fa";
 
 const About = () => {
   const textArray = [
-    { title: "JavaScript (ES6+)", link: "https://reactbd.com/" },
-    { title: "Next js", link: "https://reactbd.com/" },
-    { title: "React js", link: "https://reactbd.com/" },
-    { title: "Node js", link: "https://reactbd.com/" },
-    { title: "TypeScript", link: "https://reactbd.com/" },
-    { title: "Express js", link: "https://reactbd.com/" },
-    { title: "MongoDB", link: "https://reactbd.com/" },
-    { title: "TailwindCSS", link: "https://reactbd.com/" },
+    { title: "JavaScript (ES6+)" },
+    { title: "Next js" },
+    { title: "React js" },
+    { title: "Node js" },
+    { title: "Express js" },
+    { title: "MongoDB" },
+    { title: "Bootstrap" },
+    { title: "TailwindCSS" },
   ];
   return (
     <Container id="about" className="py-10 lg:py-24 flex flex-col gap-8">

@@ -20,7 +20,7 @@ const Archive = () => {
 
   return (
     <Container className="py-24 max-w-5xl mx-auto">
-      <div className="flex flex-col gap-1 items-center">
+      {/* <div className="flex flex-col gap-1 items-center">
         <h2 className="text-3xl font-semibold">Other Noteworthy Projects</h2>
         <p className="text-sm text-designColor tracking-wide">
           view the archive
@@ -51,7 +51,7 @@ const Archive = () => {
         >
           {showMore ? "Show Less" : "Show More"}
         </button>
-      </div>
+      </div> */}
     </Container>
   );
 };

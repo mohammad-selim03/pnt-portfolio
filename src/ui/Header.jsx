@@ -116,7 +116,7 @@ const Header = () => {
                     </Link>
                   ))}
                 </ul>
-                <a href={resume} target="_blank">
+                <a href={"https://drive.google.com/file/d/1ARCWeeG39R99ThNDiDbgm4z1GtSqjSph/view"} target="_blank">
                   <motion.button
                     initial={{ opacity: 0 }}
                     animate={{ opacity: 1 }}
@@ -135,7 +135,7 @@ const Header = () => {
                   href="mailto:selim.nill1@gmail.com"
                 >
                   <p className="text-darkText hover:text-designColor hover:underline underline-offset-4 duration-200">
-                    reactbd@proton.me
+                    Mohammad Selim
                   </p>
                 </motion.a>
               </div>

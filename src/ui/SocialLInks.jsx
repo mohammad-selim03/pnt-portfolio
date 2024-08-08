@@ -18,7 +18,7 @@ const socialAccounts = [
   },
   {
     title: "youtube",
-    link: "https://www.youtube.com/channel/UChkOsij0dhgft0GhHRauOAA",
+    link: "https://www.youtube.com",
     icon: <SlSocialYoutube />,
     delay: 0.85,
   },
@@ -36,7 +36,7 @@ const socialAccounts = [
   },
   {
     title: "instagram",
-    link: "https://www.instagram.com/simplenoor143/",
+    link: "https://www.instagram.com/",
     icon: <SlSocialInstagram />,
     delay: 1,
   },

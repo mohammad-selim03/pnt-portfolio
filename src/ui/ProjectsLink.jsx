@@ -13,13 +13,7 @@ const ProjectsLink = ({ link }) => {
       >
         <TbBrandGithub />
       </a>
-      <a
-        className="hover:text-designColor duration-300"
-        href="https://youtu.be/WzMtRfzkP-Q"
-        target="_blank"
-      >
-        <AiOutlineYoutube />
-      </a>
+      
       <a
         className="hover:text-designColor duration-300"
         href={link}

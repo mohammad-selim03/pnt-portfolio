@@ -45,7 +45,7 @@ const Banner = () => {
         transition={{ duration: 0.5, delay: 0.8 }}
         className="md:max-w-[650px] text-darkText font-medium leading-7"
       >
-        I am a web developer with 2+ years of experience in React. I have a
+        I am a Front End developer with 2+ years of Learning experience in Front end development. I have a
         strong foundation in front-end & back-end development and am skilled in
         creating user-friendly and responsive web applications using React and
         its ecosystem.{" "}
