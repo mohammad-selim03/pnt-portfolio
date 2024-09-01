@@ -12,7 +12,7 @@ import { motion } from "framer-motion";
 
 function App() {
   return (
-    <main className="font-bodyFont min-h-screen bg-primaryColor text-lightText">
+    <main className="font-bodyFont min-h-screen bg-gradient-to-r from-primaryColor to-sky-900  text-lightText">
       <Header />
 
       <Banner />

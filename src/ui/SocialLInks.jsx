@@ -12,7 +12,7 @@ import { twMerge } from "tailwind-merge";
 const socialAccounts = [
   {
     title: "github",
-    link: "https://github.com/selimnill",
+    link: "https://github.com/mohammad-selim03",
     icon: <TbBrandGithub />,
     delay: 0.8,
   },
@@ -24,7 +24,7 @@ const socialAccounts = [
   },
   {
     title: "linkedin",
-    link: "https://www.linkedin.com/in/mohammad-selim-hossain-351239211/",
+    link: "https://www.linkedin.com/in/mohammad-selim333/",
     icon: <SlSocialLinkedin />,
     delay: 0.9,
   },
