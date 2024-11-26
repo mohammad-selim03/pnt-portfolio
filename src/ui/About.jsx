@@ -22,21 +22,13 @@ const About = () => {
           <p>
             Hello! My name is Mohammad Selim and I enjoy creating things that
             live on the internet. My interest in web development started back in
-            2012 when I decided to try editing custom Tumblr themes — turns out
-            hacking together a custom reblog button taught me a lot about HTML &
-            CSS!
+            2021 when I decided to try creating website — turns out hacking
+            together a custom reblog button taught me a lot about HTML & CSS!
           </p>
           <p>
             Fast-forward to today, and I had the privilege of working at an
             advertising agency, a start-up,{" "}
-            <span className="text-designColor">
-              a huge corporation, and a student-led design studio.
-            </span>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio rem
-            accusantium fugiat veritatis, quidem repellat{" "}
-            <span className="text-designColor">
-              ab natus possimus? Sint, accusamus!
-            </span>
+            <span className="text-designColor">a huge corporation.</span>
           </p>
           <p>
             Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolorem
@@ -65,10 +57,10 @@ const About = () => {
                 alt="profileImg"
                 className="rounded-lg lg:w-full h-full object-cover"
               />
-              <div className="hidden lg:inline-block absolute w-full h-96 bg-designColor/20 rounded-md top-0 left-0 group-hover:bg-transparent duration-300" />
+              <div className="hidden lg:inline-block absolute w-full h-96 rounded-3xl top-0 left-0 group-hover:bg-transparent duration-300" />
             </div>
           </div>
-          <div className="hidden lg:inline-flex w-full h-96 border-2 border-designColor rounded-md group-hover:-translate-x-2 group-hover:-translate-y-2 transition-transform duration-300" />
+          <div className="hidden lg:inline-flex w-full h-96 border-2 border-dotted rounded-3xl shadow-designColor shadow-md border-designColor  group-hover:-translate-x-2 group-hover:-translate-y-2 transition-transform duration-300" />
         </div>
       </div>
     </Container>

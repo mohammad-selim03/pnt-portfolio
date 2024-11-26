@@ -60,7 +60,7 @@ const Banner = () => {
         initial={{ y: 10, opacity: 0 }}
         animate={{ y: 0, opacity: 1 }}
         transition={{ duration: 0.5, delay: 0.9 }}
-        href="https://github.com/selimnill"
+        href="https://github.com/mohammad-selim03"
         target="_blank"
         className="w-52 h-14 text-sm border border-designColor rounded-md text-designColor tracking-wide font-semibold hover:bg-hoverColor duration-300 flex items-center justify-center"
       >

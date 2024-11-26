@@ -7,6 +7,7 @@ import img2 from "../assets/images/project2.png";
 import img3 from "../assets/images/project3.png";
 import img4 from "../assets/images/project4.png";
 import img5 from "../assets/images/project5.png";
+import img6 from "../assets/images/projects1.png";
 
 const Project = () => {
   return (
@@ -14,6 +15,50 @@ const Project = () => {
       <SectionTitle title="Some Things I have Built" titleNo="03" />
       <div className="mt-10 flex flex-col items-center justify-center gap-28">
         {/* Project One */}
+        <div className="flex flex-col lg:flex-row gap-6">
+          {/* Image */}
+          <a
+            href="https://blink-basket-store.vercel.app/"
+            target="blank"
+            className="w-full lg:w-1/2 h-auto relative group rounded-lg overflow-hidden"
+          >
+            <img
+              src={img6}
+              alt="project img"
+              className="w-full h-full object-cover"
+            />
+            <div className="absolute w-full h-full bg-designColor/10 rounded-lg top-0 left-0 group-hover:bg-transparent duration-300" />
+          </a>
+          {/* Description */}
+          <div className="w-full lg:w-1/2 flex flex-col gap-6 lg:justify-between items-end text-right lg:-ml-16 z-10">
+            <div>
+              <p className="text-designColor text-sm tracking-wide">
+                Featured Project
+              </p>
+              <h3 className="text-2xl font-bold">Blink Basket Store</h3>
+            </div>
+            <p className="bg-textBg text-sm md:text-base p-2 md:p-6 rounded-md">
+              An excellent user friendly full stack ecommerce app. Where user's
+              can browse and buy products. And it's fully functiocal and
+              responsive{" "}
+            </p>
+            <ul className="text-xs md:text-sm tracking-wide flex gap-2 md:gap-5 justify-between text-darkText">
+              <li>React JS</li>
+              <li>Javascript</li>
+              <li>Framer Motion</li>
+              <li>Tailwind CSS</li>
+            
+              <li>Stripe</li>
+              <li>Firebase</li>
+              <li>Vercel</li>
+            </ul>
+            <ProjectsLInks
+              link="https://blink-basket-store.vercel.app/"
+              github="https://github.com/mohammad-selim03/BlinkBasket"
+            />
+          </div>
+        </div>
+        {/* Project Two */}
         <div className="flex flex-col lg:flex-row-reverse gap-6">
           {/* Image */}
           <a
@@ -34,15 +79,13 @@ const Project = () => {
               <p className="text-designColor text-sm tracking-wide">
                 Featured Project
               </p>
-              <h3 className="text-2xl font-bold">
-                Fruits World Full Stack
-              </h3>
+              <h3 className="text-2xl font-bold">Fruits World Full Stack</h3>
             </div>
             <p className="text-sm md:text-base bg-[#112240] p-2 md:p-6 rounded-md lg:-mr-16">
               A full functional Foods web app where an user can buy their
               products with secure online payments.{" "}
-              <span className="text-designColor">An admin</span> can manage
-              all the users profile and products{" "}
+              <span className="text-designColor">An admin</span> can manage all
+              the users profile and products{" "}
             </p>
             <ul className="text-xs md:text-sm tracking-wide flex gap-2 md:gap-5 justify-between text-darkText">
               <li>React JS</li>
@@ -57,7 +100,7 @@ const Project = () => {
             />
           </div>
         </div>
-        {/* Project Two */}
+        {/* Project Three */}
         <div className="flex flex-col lg:flex-row gap-6">
           {/* Image */}
           <a
@@ -97,7 +140,7 @@ const Project = () => {
             />
           </div>
         </div>
-        {/* Project Three */}
+        {/* Project Four */}
         <div className="flex flex-col lg:flex-row-reverse gap-6">
           {/* Image */}
           <a
@@ -199,13 +242,11 @@ const Project = () => {
               <p className="text-designColor text-sm tracking-wide">
                 Featured Project
               </p>
-              <h3 className="text-2xl font-bold">
-                Electro orebi shop
-              </h3>
+              <h3 className="text-2xl font-bold">Electro orebi shop</h3>
             </div>
             <p className="text-sm md:text-base bg-[#112240] p-2 md:p-6 rounded-md lg:-mr-16">
-              A full responsive ecommerce website with cart and search functionalities.
-           Dynamic data's and fast renderd.
+              A full responsive ecommerce website with cart and search
+              functionalities. Dynamic data's and fast renderd.
             </p>
             <ul className="text-xs md:text-sm tracking-wide flex gap-2 md:gap-5 justify-between text-darkText">
               <li>React JS</li>
